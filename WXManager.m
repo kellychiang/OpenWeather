@@ -68,6 +68,9 @@
 
 - (void)findCurrentLocation {
     self.isFirstUpdate = YES;
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
+        [self.locationManager requestAlwaysAuthorization];
+    }
     [self.locationManager startUpdatingLocation];
 }
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3ECC572-2961-47CC-A5DA-23DE8B92A314</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenWeather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>823661A8FC7417A1422990372FEAE320ED0B0B9C</key>
+		<string>https://github.com/kellychiang/OpenWeather.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenWeather.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>823661A8FC7417A1422990372FEAE320ED0B0B9C</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kellychiang/OpenWeather.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>823661A8FC7417A1422990372FEAE320ED0B0B9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>823661A8FC7417A1422990372FEAE320ED0B0B9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenWeather</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -14,6 +14,7 @@
 		A22A9C8E1A0751A9003ADE7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22A9C8D1A0751A9003ADE7F /* Images.xcassets */; };
 		A22A9C911A0751A9003ADE7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22A9C8F1A0751A9003ADE7F /* LaunchScreen.xib */; };
 		A22A9C9D1A0751A9003ADE7F /* OpenWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22A9C9C1A0751A9003ADE7F /* OpenWeatherTests.m */; };
+		A270B03E1A1EDC1E006FBE85 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A270B03D1A1EDC1E006FBE85 /* Images-2.xcassets */; };
 		A282018A1A07557200264625 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28201891A07557200264625 /* WXController.m */; };
 		A28201A71A0756EE00264625 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A282018C1A0756EE00264625 /* bg.png */; };
 		A28201A81A0756EE00264625 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A282018D1A0756EE00264625 /* bg@2x.png */; };
@@ -74,6 +75,7 @@
 		A22A9C961A0751A9003ADE7F /* OpenWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22A9C9B1A0751A9003ADE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22A9C9C1A0751A9003ADE7F /* OpenWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherTests.m; sourceTree = "<group>"; };
+		A270B03D1A1EDC1E006FBE85 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		A28201881A07557200264625 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
 		A28201891A07557200264625 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
 		A282018C1A0756EE00264625 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				A22A9C8D1A0751A9003ADE7F /* Images.xcassets */,
 				A282018B1A0756EE00264625 /* Images */,
 				A22A9C8F1A0751A9003ADE7F /* LaunchScreen.xib */,
+				A270B03D1A1EDC1E006FBE85 /* Images-2.xcassets */,
 				A22A9C801A0751A9003ADE7F /* Supporting Files */,
 			);
 			path = OpenWeather;
@@ -362,6 +365,7 @@
 				A28201A91A0756EE00264625 /* weather-broken.png in Resources */,
 				A28201B31A0756EE00264625 /* weather-moon.png in Resources */,
 				A28201AE1A0756EE00264625 /* weather-few-night@2x.png in Resources */,
+				A270B03E1A1EDC1E006FBE85 /* Images-2.xcassets in Resources */,
 				A28201BA1A0756EE00264625 /* weather-scattered@2x.png in Resources */,
 				A28201AD1A0756EE00264625 /* weather-few-night.png in Resources */,
 				A22A9C8E1A0751A9003ADE7F /* Images.xcassets in Resources */,
@@ -555,6 +559,7 @@
 			baseConfigurationReference = BD1E4A37FEBD21E1FB5ABB06 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OpenWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -567,6 +572,7 @@
 			baseConfigurationReference = 3AEA4D02EB86C4CFC089F42A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OpenWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
